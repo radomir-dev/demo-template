@@ -16,7 +16,7 @@ editing. `package.json` `version` drives the version badge.
 
 ## What is already wired
 
-1. `src/site/ProjectChrome.tsx` — Octocat link to the repo in the app bar, author footer, version badge in the bottom-left corner linking to the matching release.
+1. `src/site/ProjectChrome.tsx` — Octocat link to the repo in the app bar, `author: radomir.dev` watermark in the bottom-right corner, version watermark in the bottom-left corner linking to the matching release.
 2. `public/favicon.svg` — the radomir.dev mark.
 3. `.github/workflows/deploy.yml` — builds and force-pushes `dist` to `gh-pages` on every push to `main`.
 4. `.github/workflows/ci.yml` — type-check and build on pull requests.
